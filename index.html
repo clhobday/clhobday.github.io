@@ -1,10 +1,85 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-  </body>
-</html>
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+
+header:
+  image: /assets/images/logo/header.jpg
+  image_description: "BCA header logo"
+
+sidebar:
+  - title: "BCA Groups"
+
+  - image: /assets/images/logo/bsg-icon.png
+    image_alt: "Biological Structures Group"
+    url: http://bsg.crystallography.org.uk/
+
+  - image: /assets/images/logo/ccg-icon.png
+    image_alt: "Chemcical Crytsallography Group"
+    url: http://ccg.crystallography.org.uk/
+
+  - image: /assets/images/logo/ig-icon.png
+    image_alt: "Industrial Group"
+    url: https://industrial.crystallography.org.uk/
+
+  - image: /assets/images/logo/pcgscmp-icon.png
+    image_alt: "Physical Crystallography Group"
+    url: http://www.pcg-scmp.org/Main_Page
+
+  - image: /assets/images/logo/yc-icon.png
+    image_alt: "Chemcical Crystallography Group"
+    url: http://ycg.crystallography.org.uk/
+
+  - title: "Corporate Members"
+  - image: /assets/images/corporate/incoatec.jpg
+    image_alt: "Incoatec"
+    shuffle: yes
+    url: https://www.incoatec.de/
+  - image: /assets/images/corporate/rigaku.png
+    image_alt: "Rigaku-OD"
+    shuffle: yes
+    url: https://www.rigaku.com/en
+  - image: /assets/images/corporate/mol_dimensions.png
+    image_alt: "Molecular Dimensions"
+    shuffle: yes
+    url: https://www.moleculardimensions.com/
+  - image: /assets/images/corporate/di_new.png
+    image_alt: "Douglas Instruments"
+    shuffle: yes
+    url: http://www.douglas.co.uk/welcome.htm
+  - image: /assets/images/corporate/bruker.png
+    image_alt: "Bruker"
+    shuffle: yes
+    url: https://www.bruker.com/
+  - image: /assets/images/corporate/ICDD.png
+    image_alt: "ICDD logo"
+    shuffle: yes
+    url: http://www.icdd.com/
+  - image: /assets/images/corporate/oxford.gif
+    image_alt: "Oxford Cryosystems logo"
+    shuffle: yes
+    url: http://www.oxcryo.com/
+  - image: /assets/images/corporate/ccdc_new.png
+    image_alt: "CCDC logo"
+    shuffle: yes
+    url: https://www.ccdc.cam.ac.uk/
+  - image: /assets/images/corporate/MP_Spectris_logo.png
+    image_alt: "Panalytical logo"
+    shuffle: yes
+    url: https://www.malvernpanalytical.com/en/
+  - image: /assets/images/corporate/BIO-RAD-LOGO.jpg
+    image_alt: "Bio-rad logo"
+    shuffle: yes
+    url: http://www.bio-rad.com/
+  - image: /assets/images/corporate/SciMed-Logo.png
+    image_alt: "Sci-med logo"
+    shuffle: yes
+    url: https://www.scimed.co.uk/
+
+  - title: "Twitter"
+    text: '<a class="twitter-timeline" data-width="180" href="https://twitter.com/britcryst?ref_src=twsrc%5Etfw">Tweets by britcryst</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
+
+---
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<script src="{{ base.url | prepend: site.url }}/assets/js/shuffle.js"></script>
