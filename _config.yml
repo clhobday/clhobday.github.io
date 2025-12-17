@@ -1,0 +1,18 @@
+
+====================================
+_config.yml
+====================================
+title: Research Group Name
+email: chemistry@ed.ac.uk
+description: Research Group – School of Chemistry, University of Edinburgh
+baseurl: ""
+url: ""
+markdown: kramdown
+theme: null
+
+
+collections:
+publications:
+output: true
+
+
