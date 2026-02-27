@@ -364,14 +364,8 @@
             <link rel="stylesheet" href="bib-publication-list.css"/>
 	</head>
 	<body>
-    <noscript>
-      <!-- bibtex source hidden by default, show it if JS disabled -->
-      <style>
-      #bibtex { display: block;}
-      </style>
-    </noscript>
 		<table id="pubTable" class="display"></table>
-        <pre id="bibtex" style="display:none;">
+        <pre id="bibtex">
 @article{Levinsky2026Barocaloric,
   title = {Understanding the barocaloric response of choline-based hybrid ionic plastic crystals [choline] 2 CoCl 4 and [choline] 2 ZnCl 4},
   author = {Levinsky, Joshua JB and Grover, Shivani and Partridge, Phillippa and Dempsey, Eliza K and Charkiolakis, Emmanouil K and Gracia, David and Evangelisti, Marco and McMonagle, Charles J and Hobday, Claire L},
@@ -552,7 +546,7 @@
 		<script type="text/javascript" src="build/bib-list.js"></script>
 		<script type="text/javascript">
 		    $(document).ready(function() {
-        	bibtexify("#bibtex", "pubTable", {'tweet': 'vkaravir'});
+        	bibtexify("#bibtex", "pubTable");
     		});
 		</script>
              
